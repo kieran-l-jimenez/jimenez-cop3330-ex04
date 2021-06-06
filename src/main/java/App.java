@@ -25,7 +25,7 @@ public class App
         String adjective = myApp.wordPrompt("adjective");
         String adverb = myApp.wordPrompt("adverb");
 
-        System.out.println(String.format("Do you %s your %s %s %s? That's hilarious!", verb, adjective, noun, adverb));
+        System.out.printf("Do you %s your %s %s %s? That's hilarious!\n", verb, adjective, noun, adverb);
     }
 
     public String wordPrompt(String wordType)
